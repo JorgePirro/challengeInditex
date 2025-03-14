@@ -17,7 +17,7 @@ This Spring Boot REST service allows you to query the final price and applicable
 ### 1. Clone the Repository
 
 ```bash
-git clone <https://github.com/JorgePirro/challengeInditex.git>
+git clone https://github.com/JorgePirro/challengeInditex.git
 ```
 
 ### 2. Navigate to the Project Directory
