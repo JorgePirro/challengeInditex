@@ -23,7 +23,7 @@ public class PriceService implements PriceServicePort {
         return Optional.of(priceRepositoryPort.findApplicablePrices(applicationDate, productId, brandId, pageable))
                 .filter(page -> !page.isEmpty())
                 .orElseThrow(() -> new PriceNotFoundException(
-                        String.format("No se encontró un precio para el producto %d y marca %d en la fecha %s",
+                        String.format("No price found for product %d and brand %d on date %s",
                                 productId, brandId, applicationDate)
                 ));
     }
